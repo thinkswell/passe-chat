@@ -1,0 +1,33 @@
+.chat__head {
+  font-family: "Ubuntu", sans-serif;
+  width: 100%;
+  /* background: #fff000; */
+  color: #fff;
+  border-bottom: 3px solid var(--color-1);
+  padding: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  position: relative;
+}
+
+.chat__head:after {
+  content: "";
+  position: absolute;
+  top: 52%;
+  left: 1%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #00ff00;
+}
+
+.chat__head:before {
+  content: "online";
+  position: absolute;
+  top: 50%;
+  left: 3%;
+  transform: translateY(-50%);
+  font-size: 1.5rem;
+  color: #999;
+}

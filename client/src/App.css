@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&family=Ubuntu:ital@1&display=swap");
+:root {
+  --color-1: #bd0000;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* span { // For Heart Flowing
+    user-select: none;
+    background: url(./img/heart.png);
+    background-size: cover;
+    position: fixed;
+    width: 100px;
+    height: 100px;
+    transform: translate(-50%, -50%);
+    animation: flowUp 2s ease-in-out;
+  }
+  
+  @keyframes flowUp {
+    0% {
+      opacity: 1;
+      transform: translateY(-50%);
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-1000%);
+    }
+  } */
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 100, 100, 0.1);
+  border-radius: 1rem;
+  border-top: 10px solid #bd000085;
+  border-bottom: 10px solid #bd000085;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(80, 80, 80, 0.3);
+  border-top: 10px solid var(--color-1);
+  border-bottom: 10px solid var(--color-1);
+}

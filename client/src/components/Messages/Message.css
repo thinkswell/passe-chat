@@ -1,0 +1,33 @@
+.messages {
+  width: 100%;
+  flex: 1;
+  padding: 0.8rem;
+  font-family: "PT Sans", sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+}
+
+.messageContainer {
+  width: 60%;
+  height: auto;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  border-bottom: 1px solid var(--color-1);
+  border-top: 1px solid var(--color-1);
+}
+
+.right {
+  margin-left: auto;
+}
+
+.user {
+  margin-bottom: 0.7rem;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #bbc;
+  border-bottom: 1px solid var(--color-1);
+}
