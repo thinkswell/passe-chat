@@ -31,3 +31,23 @@
   font-size: 1.5rem;
   color: #999;
 }
+
+a,
+a:link,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+.chat__head--cross {
+  position: absolute;
+  right: 2%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #ff000099;
+  font-size: 2rem;
+}
+.chat__head--cross:hover {
+  color: #ff0000;
+}
