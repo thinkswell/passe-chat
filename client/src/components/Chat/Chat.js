@@ -62,6 +62,9 @@ export default function Chat({ location }) {
           onKeyPress={(e) => (e.key === "Enter" ? sendMessage(e) : null)}
           autoFocus
         />
+        <button className="chat__label--btn" onClick={sendMessage}>
+          Send
+        </button>
       </label>
     </div>
   );

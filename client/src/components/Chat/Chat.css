@@ -13,12 +13,14 @@
 .chat__label {
   width: 100%;
   height: 4rem;
+  display: flex;
+  justify-content: center;
 }
 
 .chat__label--input {
   font-family: sans-serif;
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  flex: 5;
   font-size: 1.9rem;
   padding: 0.5rem;
   color: #fff;
@@ -30,4 +32,22 @@
 .chat__label--input:focus {
   outline: none;
   border-top: 1px solid var(--color-1);
+}
+
+.chat__label--btn {
+  cursor: pointer;
+  width: 20%;
+  flex: 1;
+  background: transparent;
+  color: #eee;
+  border: none;
+  border-right: 2px solid var(--color-1);
+  transition: all 0.2s;
+}
+.chat__label--btn:hover {
+  border-right: 10px solid var(--color-1);
+}
+.chat__label--btn:focus {
+  outline: none;
+  border-right: 10px solid var(--color-1);
 }
