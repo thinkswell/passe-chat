@@ -8,22 +8,7 @@ export default function Messages({ messages, name }) {
     <Message key={index} message={message} name={name} />
   ));
 
-  console.log(messagesContainer);
-
   return (
     <ScrollToBottom className="messages">{messagesContainer}</ScrollToBottom>
   );
-}
-
-{
-  /* <div
-className={`messageContainer ${
-  message.name !== name ? "left" : "right"
-}`}
-style={{ color: `${message.name === "admin" ? "#00ff00" : null}` }}
->
-<div className="user">message.name</div>
-<div className="message">message.text</div>
-</div>
-); */
 }

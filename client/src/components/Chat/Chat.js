@@ -13,6 +13,7 @@ export default function Chat({ location }) {
   const [message, setMessage] = useState("");
   const [messages, setMessages] = useState([]);
 
+  // const ENDPOINT = "https://passe-chat.herokuapp.com/";
   const ENDPOINT = "localhost:5000";
 
   useEffect(() => {
@@ -46,8 +47,6 @@ export default function Chat({ location }) {
       });
     }
   };
-
-  console.log(message, messages);
 
   return (
     <div className="chat">
