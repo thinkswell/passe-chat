@@ -2,6 +2,7 @@ const http = require("http");
 const socketio = require("socket.io");
 const express = require("express");
 const cors = require("cors");
+require("dotenv").config();
 
 const router = require("./router");
 
